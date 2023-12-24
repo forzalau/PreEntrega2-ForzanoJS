@@ -28,8 +28,8 @@ const productoZapatillas = {
 let opcion = -1;
 const opcionesValidas = ["1", "2", "3", "4", "5", "6", "7"];
 
-const nombreUsuario = prompt("Ingrese su Nombre.");
-alert("Bienvenido " + nombreUsuario + "!");
+const nombreUsuario = prompt("Ingrese su nombre.");
+alert("¡Bienvenido " + nombreUsuario + "!");
 
 while (opcion != 7) {
   opcion = prompt(
