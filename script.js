@@ -102,13 +102,15 @@ function verCarrito() {
       "\nZapatillas " +
       contarProducto(4) +
       "\n\n" +
-      "total: " +
+      "Total: " +
       totalCarrito
   );
 }
 
 function inrgesarCupon() {
-  const promptCupon = prompt("Ingresar cupón de descuento:");
+  const promptCupon = prompt(
+    "Ingresar cupón de descuento:\n(cupón: 20descuento)"
+  );
 
   if (promptCupon.toLowerCase() == "20descuento") {
     alert("Cupón Valido - 20% de descuento aplicado.");
